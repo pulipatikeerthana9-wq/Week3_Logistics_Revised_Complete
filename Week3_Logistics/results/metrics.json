@@ -1,0 +1,246 @@
+{
+  "source": "Simulated shipments, seed 2026; not actual operational observations",
+  "rows": 3000,
+  "columns": 19,
+  "missing_cells": 0,
+  "duplicate_ids": 0,
+  "dispatch_start": "2026-01-01",
+  "dispatch_end": "2026-06-30",
+  "delivery_end": "2026-07-03",
+  "units": 155954,
+  "late_shipments": 757,
+  "on_time_rate_pct": 74.76666666666667,
+  "total_cost_inr": 9235792.37,
+  "mean_cost_inr": 3078.5974566666664,
+  "cost_per_unit_inr": 59.22125992279774,
+  "mean_delivery_days": 2.0006666666666666,
+  "median_delivery_days": 2.0,
+  "p90_delivery_days": 3.0,
+  "mean_dwell_hours": 11.25568,
+  "distance_cost_pearson": 0.8990184988749841,
+  "distance_cost_spearman": 0.9139315268432797,
+  "dwell_delivery_pearson": 0.35399119905886156,
+  "component_share_pct": {
+    "cost_fixed_inr": 11.721787981251468,
+    "cost_distance_inr": 74.49305186145064,
+    "cost_weight_inr": 8.466948678275669,
+    "cost_handling_inr": 2.9248851552517094,
+    "cost_variation_inr": 2.393326323770529
+  },
+  "outliers_retained": {
+    "distance_km": {
+      "iqr": 369.25,
+      "flagged_rows": 66
+    },
+    "shipment_units": {
+      "iqr": 47.0,
+      "flagged_rows": 0
+    },
+    "weight_kg": {
+      "iqr": 126.98249999999999,
+      "flagged_rows": 10
+    },
+    "warehouse_dwell_hours": {
+      "iqr": 10.4925,
+      "flagged_rows": 35
+    },
+    "promised_days": {
+      "iqr": 1.0,
+      "flagged_rows": 47
+    },
+    "delivery_days": {
+      "iqr": 1.0,
+      "flagged_rows": 101
+    },
+    "transport_cost_inr": {
+      "iqr": 1783.0349999999999,
+      "flagged_rows": 101
+    }
+  },
+  "monthly": [
+    {
+      "month": "2026-01",
+      "shipments": 400,
+      "units": 19859,
+      "late_shipments": 98,
+      "mean_delivery_days": 1.945,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.0515,
+      "mean_distance_km": 481.81525,
+      "total_cost_inr": 1199365.98,
+      "mean_cost_inr": 2998.41495,
+      "late_rate_pct": 24.5,
+      "on_time_rate_pct": 75.5,
+      "cost_per_unit_inr": 60.39407724457425
+    },
+    {
+      "month": "2026-02",
+      "shipments": 378,
+      "units": 19709,
+      "late_shipments": 91,
+      "mean_delivery_days": 2.0185185185185186,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.58441798941799,
+      "mean_distance_km": 481.55661375661373,
+      "total_cost_inr": 1128719.23,
+      "mean_cost_inr": 2986.029708994709,
+      "late_rate_pct": 24.074074074074073,
+      "on_time_rate_pct": 75.92592592592592,
+      "cost_per_unit_inr": 57.26922877873053
+    },
+    {
+      "month": "2026-03",
+      "shipments": 500,
+      "units": 26183,
+      "late_shipments": 124,
+      "mean_delivery_days": 2.002,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 10.997639999999999,
+      "mean_distance_km": 505.49359999999996,
+      "total_cost_inr": 1563076.24,
+      "mean_cost_inr": 3126.15248,
+      "late_rate_pct": 24.8,
+      "on_time_rate_pct": 75.2,
+      "cost_per_unit_inr": 59.698133903677956
+    },
+    {
+      "month": "2026-04",
+      "shipments": 446,
+      "units": 23730,
+      "late_shipments": 115,
+      "mean_delivery_days": 2.031390134529148,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.161076233183858,
+      "mean_distance_km": 505.33497757847533,
+      "total_cost_inr": 1386226.57,
+      "mean_cost_inr": 3108.1313228699555,
+      "late_rate_pct": 25.784753363228702,
+      "on_time_rate_pct": 74.2152466367713,
+      "cost_per_unit_inr": 58.41662747576907
+    },
+    {
+      "month": "2026-05",
+      "shipments": 627,
+      "units": 32536,
+      "late_shipments": 140,
+      "mean_delivery_days": 1.9760765550239234,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.606634768740031,
+      "mean_distance_km": 497.84035087719303,
+      "total_cost_inr": 1943010.19,
+      "mean_cost_inr": 3098.8998245614034,
+      "late_rate_pct": 22.328548644338117,
+      "on_time_rate_pct": 77.67145135566189,
+      "cost_per_unit_inr": 59.7187788910745
+    },
+    {
+      "month": "2026-06",
+      "shipments": 649,
+      "units": 33937,
+      "late_shipments": 189,
+      "mean_delivery_days": 2.026194144838213,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.114807395993838,
+      "mean_distance_km": 504.1787365177196,
+      "total_cost_inr": 2015394.16,
+      "mean_cost_inr": 3105.383913713405,
+      "late_rate_pct": 29.121725731895225,
+      "on_time_rate_pct": 70.87827426810478,
+      "cost_per_unit_inr": 59.386338214927655
+    }
+  ],
+  "service": [
+    {
+      "service": "Express",
+      "shipments": 913,
+      "units": 48562,
+      "late_shipments": 489,
+      "mean_delivery_days": 1.709748083242059,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 10.908970427163197,
+      "mean_distance_km": 498.9426067907995,
+      "total_cost_inr": 3580814.53,
+      "mean_cost_inr": 3922.031248630887,
+      "late_rate_pct": 53.559693318729465,
+      "on_time_rate_pct": 46.440306681270535,
+      "cost_per_unit_inr": 73.73696573452493
+    },
+    {
+      "service": "Standard",
+      "shipments": 2087,
+      "units": 107392,
+      "late_shipments": 268,
+      "mean_delivery_days": 2.127934834690944,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 11.40735505510302,
+      "mean_distance_km": 496.74365117393387,
+      "total_cost_inr": 5654977.84,
+      "mean_cost_inr": 2709.620431241016,
+      "late_rate_pct": 12.841399137517968,
+      "on_time_rate_pct": 87.15860086248203,
+      "cost_per_unit_inr": 52.657347288438615
+    }
+  ],
+  "region": [
+    {
+      "region": "East",
+      "shipments": 666,
+      "units": 34885,
+      "late_shipments": 281,
+      "mean_delivery_days": 2.3528528528528527,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 20.00430930930931,
+      "mean_distance_km": 489.11141141141144,
+      "total_cost_inr": 2055043.58,
+      "mean_cost_inr": 3085.6510210210213,
+      "late_rate_pct": 42.19219219219219,
+      "on_time_rate_pct": 57.80780780780781,
+      "cost_per_unit_inr": 58.909089293392576
+    },
+    {
+      "region": "North",
+      "shipments": 785,
+      "units": 40399,
+      "late_shipments": 177,
+      "mean_delivery_days": 1.956687898089172,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 10.083350318471338,
+      "mean_distance_km": 495.08063694267514,
+      "total_cost_inr": 2403719.49,
+      "mean_cost_inr": 3062.0630445859874,
+      "late_rate_pct": 22.547770700636942,
+      "on_time_rate_pct": 77.45222929936305,
+      "cost_per_unit_inr": 59.499479937622226
+    },
+    {
+      "region": "South",
+      "shipments": 792,
+      "units": 40916,
+      "late_shipments": 144,
+      "mean_delivery_days": 1.8623737373737375,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 8.268156565656566,
+      "mean_distance_km": 493.10012626262625,
+      "total_cost_inr": 2404566.49,
+      "mean_cost_inr": 3036.0688005050506,
+      "late_rate_pct": 18.181818181818183,
+      "on_time_rate_pct": 81.81818181818181,
+      "cost_per_unit_inr": 58.76836665363184
+    },
+    {
+      "region": "West",
+      "shipments": 757,
+      "units": 39754,
+      "late_shipments": 155,
+      "mean_delivery_days": 1.88110964332893,
+      "median_delivery_days": 2.0,
+      "mean_dwell_hours": 7.9000792602377805,
+      "mean_distance_km": 511.6470277410832,
+      "total_cost_inr": 2372462.81,
+      "mean_cost_inr": 3134.0327741083224,
+      "late_rate_pct": 20.47556142668428,
+      "on_time_rate_pct": 79.52443857331572,
+      "cost_per_unit_inr": 59.678593600643964
+    }
+  ]
+}

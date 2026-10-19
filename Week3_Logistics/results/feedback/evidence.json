@@ -1,0 +1,16 @@
+{
+  "scope": "Unchanged hypothetical simulation; stratified associations, not causal effects",
+  "express_share_of_late_pct": 64.59709379128138,
+  "east_share_of_late_pct": 37.12021136063408,
+  "delivery_four_plus": 101,
+  "express_late_example": [
+    {
+      "service": "Express",
+      "distance_km": 797.0,
+      "warehouse_dwell_hours": 9.61,
+      "promised_days": 1,
+      "delivery_days": 2,
+      "delay_days": 1
+    }
+  ]
+}

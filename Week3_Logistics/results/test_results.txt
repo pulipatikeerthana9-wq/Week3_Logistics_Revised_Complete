@@ -1,0 +1,20 @@
+test_correlations_symmetric (test_week3.Week3Tests.test_correlations_symmetric) ... ok
+test_cost_rejected (test_week3.Week3Tests.test_cost_rejected) ... ok
+test_dates_rejected (test_week3.Week3Tests.test_dates_rejected) ... ok
+test_different_seed (test_week3.Week3Tests.test_different_seed) ... ok
+test_duplicate_rejected (test_week3.Week3Tests.test_duplicate_rejected) ... ok
+test_flag_rejected (test_week3.Week3Tests.test_flag_rejected) ... ok
+test_fractional_days (test_week3.Week3Tests.test_fractional_days) ... ok
+test_full_size_and_schema (test_week3.Week3Tests.test_full_size_and_schema) ... ok
+test_group_totals_reconcile (test_week3.Week3Tests.test_group_totals_reconcile) ... ok
+test_hand_calculated_aggregation (test_week3.Week3Tests.test_hand_calculated_aggregation) ... ok
+test_invalid_size (test_week3.Week3Tests.test_invalid_size) ... ok
+test_missing_rejected (test_week3.Week3Tests.test_missing_rejected) ... ok
+test_negative_rejected (test_week3.Week3Tests.test_negative_rejected) ... ok
+test_reproducibility (test_week3.Week3Tests.test_reproducibility) ... ok
+test_unknown_category (test_week3.Week3Tests.test_unknown_category) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.258s
+
+OK
